@@ -17,6 +17,7 @@ ActiveRecord::Schema.define(version: 20140921012834) do
     t.integer  "company_id"
     t.string   "login_name"
     t.string   "password"
+    t.string   "url"
     t.integer  "user_id"
     t.datetime "created_at"
     t.datetime "updated_at"

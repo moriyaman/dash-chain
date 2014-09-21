@@ -4,6 +4,7 @@ class CreateCompanyServices < ActiveRecord::Migration
       t.references("company")
       t.string :login_name
       t.string :password
+      t.string :url
       t.references("user")
       t.timestamps
     end
